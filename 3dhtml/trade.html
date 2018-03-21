@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>	
+	<link type="text/css" rel="stylesheet" href="style/basic.css">
+	<link type="text/css" rel="stylesheet" href="style/trade.css">
+	<link rel="shortcut icon" href="images/favico.ico">
+	<meta charset="UTF-8">
+<title>trade</title>
+</head>
+<body>
+	<!-- header -->
+	<div id="header">
+		<div id="header_main">
+			<h1 class="logo">
+				<img src="images/logo.png" />
+			</h1>
+			<div class="nav">
+				<ul>
+					<li><a href="index.html">网站首页</a></li>
+					<li><a href="teach.html">教学展示</a></li>
+					<li><a href="lore.html">3D知识课堂</a></li>
+					<li><a href="news.html" class="nav_first">新闻中心</a></li>
+					<li><a href="show.html">模型定制</a></li>
+					<li><a href="activity.html">活动中心</a></li>
+					<li><a href="about.html">关于我们</a></li>
+					<li><a href="contact.html">联系我们</a></li>
+					<div id="buoy"></div>
+				</ul>
+			</div>
+			<div class="search">
+				<form action="" method="">
+					<input type="submit" class="submit">
+					<input type="text" name="search" class="text" required placeholder="搜索">
+				</form>
+			</div>
+		</div>
+	</div>
+	<!-- content -->
+	<div id="content">
+		<div id="content_main">
+			<div id="left">
+				<h1><a href="#">3D知识课堂</a></h1>
+				<div>
+					<ul>
+						<li><a href="news.html">唯识创梦新闻</a></li>
+						<li class="bg"><a href="trade.html">3D行业新闻</a></li>
+					</ul>
+				</div>
+			</div>
+			<div id="center">
+				<div>
+					<ul id="wrap">
+						<li><a href="trade-001.html">微软Windows 8.1平台推出3D打印应用:3D Builder</a><em>2015-05-05</em></li>
+					</ul>
+					<div class="page">
+						<form>
+							<ul>
+								<li><a href="#" class="bgg">1</a></li>
+							</ul>
+						</form>
+					</div>
+				</div>
+			</div>
+			<div id="right">
+				<img src="images/right_img_1.jpg" alt="123"/>
+				<img src="images/right_img_2.jpg" alt="123"/>
+			</div>
+		</div>
+	</div>
+	<!-- footer -->
+	<div id="footer">
+		<div id="footer_main">
+			<dl>
+				<dt><a href="#">我是学生</a></dt>
+				<dd><a href="#">如何注册</a></dd>
+				<dd><a href="#">如何学习</a></dd>
+				<dd><a href="#">如何互动</a></dd>
+				<dd><a href="#">模型打印指南</a></dd>
+			</dl>
+			<dl>
+				<dt class="teach"><a href="#">我是老师</a></dt>
+				<dd><a href="#">发布课程</a></dd>
+				<dd><a href="#">使用题库</a></dd>
+				<dd><a href="#">教学资料库</a></dd>
+			</dl>
+			<dl>
+				<dt class="server"><a href="#">服务支持</a></dt>
+				<dd><a href="#">运营团队</a></dd>
+				<dd><a href="#">合作伙伴</a></dd>
+				<dd><a href="#">新闻中心</a></dd> 
+			</dl>
+			<dl>
+				<dt class="about"><a href="#">关于我们</a></dt>
+				<dd><a href="about.html">关于唯识</a></dd>
+				<dd><a href="#">加入我们</a></dd>
+				<dd><a href="contact.html">联系我们</a></dd>
+			</dl>
+			<dl>
+				<dt class="href"><a href="#">友情链接</a></dt>
+			</dl>
+			<h1>微信公众平台</h1>
+			<h2 id="logo"></h2>
+			
+		</div>
+		<div id="copy">
+			<div id="copy_main">
+				<p>Copyright@copy;2008-2016 3deazer.com All Rights Reserve… 维识3D打印有限公司</p>
+				<ul>
+					<li>关于我们</li>
+					<li>诚聘英才</li>
+					<li>法律条款</li>
+					<li>隐私政策</li>
+					<li>About Us</li>
+					<li>Carerees</li>
+					<li>egal</li>
+					<li class="c_y">Priv Policy</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	
+	
+	<!-- public -->
+	<script type="text/javascript" src="js/public_h.js" ></script>
+	<script type="text/javascript" src="js/public_h2.js" ></script>
+		<script type="text/javascript">
+			$.nicenav(260);
+		</script>
+	<!-- public -->
+	
+	<!-- bg -->
+	<script type="text/javascript">
+		$("#left li").click(function(){
+			cutItm=$("#left li").index(this);
+			$("#left li").removeClass("bg");$(this).addClass("bg");
+		});
+	</script>
+	<!-- bg -->
+	<!-- bg -->
+	<script type="text/javascript">
+		$(".page li a").click(function(){
+			cutItm=$(".page li a").index(this);
+			$(".page li a").removeClass("bgg");$(this).addClass("bgg");
+		});
+	</script>
+	<!-- bg -->	
+
+	
+</body>
+</html>

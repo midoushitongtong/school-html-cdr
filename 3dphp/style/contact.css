@@ -1,0 +1,135 @@
+@charset "utf-8";
+#content{
+	height:auto;
+}
+#content #content_main{
+	width: 1180px;
+	background: #fff;
+	padding: 10px 10px 73px 10px;
+	overflow: hidden;
+}
+#content #content_main h1{
+	font-weight: normal;
+	height: 40px;
+	line-height: 40px;
+	font-size: 24px;
+	text-align: center;
+	padding: 16.8px 0;
+	border-bottom: 1px solid #e5e5e5;
+}
+#content #content_main h2{
+	text-align: center;
+}
+#content #content_main h2 img{
+	width: 1180px;
+	height: 300px;
+	display: block;
+}
+#content #content_main h3{
+	height: 65px;
+	background: #8fc321;
+	padding: 15px 0 0 10px;
+}
+#content #content_main h3 p{
+	color: #fff;
+	font-weight: normal;
+	font-size: 19px;
+}
+#content #content_main h3 p.p1{
+	padding: 3px 0 0 0;
+}
+#content #content_main #content_center{
+	width: 1180px;
+	margin: 0 auto;
+}
+#content #content_main #content_center #c_c_top h1 a{
+	color: #292929;
+	text-decoration: none;
+}
+#content #content_main #content_center #c_c_footer{
+	padding: 0 310px;
+}
+#content #content_main #content_center #c_c_footer h2{
+	color: #292929;
+	font-weight: normal;
+	text-align: left;
+	padding: 20px 0;
+}
+#content #content_main #content_center #c_c_footer form{
+	width: 600px;
+}
+#content #content_main #content_center #c_c_footer form textarea{
+	width: 580px;
+	height: 300px;
+	border: 1px solid #dbdbdb;
+	border-radius: 6px;
+	color: #999;
+	font-size: 16px;
+	padding: 20px 0 0 20px;
+	resize: none;
+}
+#content #content_main #content_center #c_c_footer form span.contact{
+	color: #666;
+	display: block;
+	text-align: center;
+	font-size: 13.6px;
+	margin: 10px 0 0 0;
+}
+#content #content_main #content_center #c_c_footer form span.yzm{
+	color: #666;
+	display: block;
+	margin: 0 0 0 0;
+}
+#content #content_main #content_center #c_c_footer form span.yzm input.text{
+	padding: 0px 0 0 20px;
+	width: 200px;
+	height: 50px;
+	border: 1px solid #dbdbdb;
+	border-radius: 6px;
+	margin: 0 0 10px 0;
+	color: #999;
+	font-size: 16px;
+}
+#content #content_main #content_center #c_c_footer form span.yzm #code{
+	position: relative;
+	top: 20px;	
+}
+#content #content_main #content_center #c_c_footer form span.yzm img{
+	cursor: pointer;
+	padding: 0 0 0 20px;
+}
+#content #content_main #content_center #c_c_footer form span i{
+	font-style: normal;
+	color: #89c321;
+}
+#content #content_main #content_center #c_c_footer form input.submit{
+	width: 260px;
+	height: 60px;
+	background: #89c321;
+	border: none;
+	border-radius: 5px;
+	color: #fff;
+	font-size: 20px;
+	margin: 13px auto 20px;
+	display: block;
+	cursor: pointer;
+}
+#content #content_main #content_center #c_c_footer form input.submit:hover{
+	opacity: 0.8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* js */
+#buoy{position:absolute;width:85px;height:2px;background:orange;bottom:5px;left:-100px;}
+/* js */
